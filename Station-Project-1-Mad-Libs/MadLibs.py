@@ -12,7 +12,7 @@ def TemplatesVariebles(template):
     return res
 
 def MadLibs(history_variables, history):
-    res = history
+    res = history 
     for i in history_variables:
         inp = input(f"Input {i[1:-1]}: ")
         res = res.replace(i, inp)
